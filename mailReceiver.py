@@ -23,7 +23,7 @@ MAIL_CHECK_FREQ = 20
 print "\n\n\n############# MAIL CHECKER SYSTEM ###########"
 print "#\n#"
 
-USERNAME = 'pk7292godara@gmail.com';#raw_input('# Enter Username: ')
+USERNAME = raw_input('# Enter Username: ')
 
 PASSWORD = getpass.getpass()
 
