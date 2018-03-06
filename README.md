@@ -1,6 +1,8 @@
 # MailReader
 
-Deployment process :
+New emails are parsed from your email servers (using your email password login) and email subjects are spoken to you as well as displayed on LCD connected to Raspberry PI.
+
+## Deployment process :
 
 1. Installing python 2.7 version on raspbian OS on raspberry pi.
 
@@ -25,7 +27,7 @@ Deployment process :
 	python mailReceiver.py
   
   
-  Connecting  circuit :
+## Connecting  circuit :
 
 How to connect LCD to Pi :
 	> connect “GND” pin of LCD (shown in diagram) to “GND” pin ( like pin 6 ) of Raspberry Pi.
